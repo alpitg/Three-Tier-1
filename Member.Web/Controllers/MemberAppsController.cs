@@ -21,6 +21,7 @@ namespace Member.Web.Controllers
             int b = 2;
 
             int n=1;
+            string abc ='Alpit';
             return View(db.GetMembers());
         }
 
