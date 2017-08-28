@@ -25,6 +25,7 @@ namespace Member.Web.Controllers
             string abc ='Alpit111';
 
             string la = 'lata';
+            string la = 'lata111';
             return View(db.GetMembers());
         }
 
