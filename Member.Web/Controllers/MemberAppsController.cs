@@ -17,17 +17,7 @@ namespace Member.Web.Controllers
         // GET: MemberApps
         public ActionResult Index()
         {
-            int a = 1;
-            int b = 2;
-
-            int n=1;
-            string abc ='Alpit';
-            string abc ='Alpit111';
-
-            string la = 'lata';
-            string la = 'lata111';
-            string la = 'lata is mad';
-            string la = 'lata is beautifull';
+            
             return View(db.GetMembers());
         }
 
