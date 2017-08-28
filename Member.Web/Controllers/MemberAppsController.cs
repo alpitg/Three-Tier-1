@@ -17,8 +17,10 @@ namespace Member.Web.Controllers
         // GET: MemberApps
         public ActionResult Index()
         {
-            int a=1;
+            int a = 1;
+            int b = 2;
 
+            int n=1;
             return View(db.GetMembers());
         }
 
