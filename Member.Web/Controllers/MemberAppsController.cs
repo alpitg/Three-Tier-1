@@ -27,6 +27,7 @@ namespace Member.Web.Controllers
             string la = 'lata';
             string la = 'lata111';
             string la = 'lata is mad';
+            string la = 'lata is beautifull';
             return View(db.GetMembers());
         }
 
